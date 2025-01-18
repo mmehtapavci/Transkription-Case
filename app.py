@@ -145,11 +145,11 @@ def login_page():
         password = st.text_input("Yeni Şifre", type="password")
         title = st.text_input("Kullanıcı Unvanı")  # Yeni unvan girişi
 
-    if st.button("Kayıt Ol"):
-        if register_user(username, password, title):
-            st.success("Kayıt başarılı! Giriş yapabilirsiniz.")
-        else:
-            st.error("Bu kullanıcı adı zaten alınmış.")
+    # if st.button("Kayıt Ol"):
+    #     if register_user(username, password, title):
+    #         st.success("Kayıt başarılı! Giriş yapabilirsiniz.")
+    #     else:
+    #         st.error("Bu kullanıcı adı zaten alınmış.")
 
 # Çıkış yap
 def logout():
